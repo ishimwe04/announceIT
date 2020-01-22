@@ -1,3 +1,6 @@
+*{
+    text-decoration: none;
+}
 .ad-header{
     width:100%;
     height:100px;
@@ -18,6 +21,7 @@
     height:480px;
     background: lightslategrey;
     float: left;
+    
 }
 
 .menu ul li{
@@ -25,6 +29,7 @@
     list-style-type: circle;
     padding:25px;
     border-bottom: 1px solid brown;
+    
 }
 
 .menu ul li:hover{
@@ -32,7 +37,7 @@
 }
 
 .data{
-    height:403px;
+    height:401px;
     background: white;
 }
 .data p{
@@ -44,6 +49,10 @@
     width:100%;
     height:30px;
     text-align: center;
-    background: lightgrey;
+    background: lightslategray;
     margin-top: 0;  
+}
+
+.footer a{
+    color:white;
 }
