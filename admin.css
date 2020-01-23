@@ -1,0 +1,58 @@
+*{
+    text-decoration: none;
+}
+.ad-header{
+    width:100%;
+    height:100px;
+    background: black;
+    color:white;
+}
+
+.ad-header h1{
+    color:white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.menu{
+    width:300px;
+    height:480px;
+    background: lightslategrey;
+    float: left;
+    
+}
+
+.menu ul li{
+    margin-top: 50px;
+    list-style-type: circle;
+    padding:25px;
+    border-bottom: 1px solid brown;
+    
+}
+
+.menu ul li:hover{
+    background: chocolate;
+}
+
+.data{
+    height:401px;
+    background: white;
+}
+.data p{
+    font-size: 25px;
+    margin-top: 80px;
+    text-align: center;
+}
+.footer{
+    width:100%;
+    height:30px;
+    text-align: center;
+    background: lightslategray;
+    margin-top: 0;  
+}
+
+.footer a{
+    color:white;
+}
