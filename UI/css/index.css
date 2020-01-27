@@ -33,25 +33,19 @@
        color:white;
    }
    
-   .content{
+   .content h1{
+       margin-left: 180px;
        text-align: center;
-       color:black;
-       align-items: center;
-   }
-   
-   .content h2{
-       line-height: 35px;
-       margin-top: 0;
-       margin-left: 40px;
-       font-size: 30px;
+       font-size: 35px;
    }
    
    .content p{
+       text-align: center;
        font-size: 30px;
        line-height: 35px;
        color: lightgrey;
-       margin-bottom: 10px;
-       margin-left: 150px;
+       margin-top: 30px;
+       margin-left: 180px;
    }
    
    .content-img{
@@ -108,36 +102,64 @@
    
    textarea {
        width: 50%;
+       height: 200px;
        display: block;
-       font-size: 10px;
+       font-size: 15px;
        margin-top: 25px;
        margin-left: 10px;
        cursor: auto;
    }
    
    .announcements{
-       width: 100%;
+       width: 80%;
+       margin: 0 auto 0;
        height: 500px;
        background-color: white;
+       display:flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
    }
    
    .announce-title{
        font-size: 30px;
-       margin-top: 20px;
-       margin-left: 20px;
    }
    
    .latest{
        margin-top: 35px;
-       margin-left: 20px;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       border-top:1px solid grey;
    }
+
+   .announcement-1{
+    width: 400px;
+    height: 300px;
+    border:1px solid transparent;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    border-radius: 0;
+    box-shadow: 2px 3px 2px #f1f1f1;
+    background-color: white;
+   }
+
    .announcement-1 h2{
        font-size: 25px;
    
    }
+   .announcement-2{
+    width: 400px;
+    height: 300px;
+    border:2px solid transparent;
+    border-radius: 0;
+    box-shadow: 2px 3px 2px #f1f1f1;
+    background-color: white;
+   }
 
    .search{
-       margin-top: 20px;
+       display:flex;
+       justify-content: center;
    }
    .search input{
        width:300px;
@@ -157,7 +179,7 @@
    .announce-btn{
            width: 10%;
            height:35px;
-           margin-left: 540px;
+           margin-left: 530px;
            background-color: green;
    }
    
@@ -179,12 +201,13 @@
        margin-top: 100px;
        padding:45px;
        text-align: center;
+       background: blue;
        
    }
    
    .reg-form input, .log-form input, .res-form input{
        outline: 1;
-       background: #f2f2f2;
+       background: white;
        width:80%;
        padding:5px;
        margin:0 0 10px;
@@ -225,10 +248,10 @@
                 margin-bottom: 5px;
             }
             .web-name{
-                margin-bottom:20px;
+                margin-bottom:5px;
             }
-            .content h2{
-                text-align: center;
+            .content h1{
+                align-items: center;
                 margin:auto;
             }
             .content p{
@@ -241,6 +264,29 @@
             }
             .text-field .announce-btn{
                 width:18%;
-                margin-left: 160px;
+                margin-left: 170px;
             }
+            .about{
+                width:100%;
+            }
+
+            .about p{
+                margin:auto;
+            }
+
+            .announcements{
+                width:100%;
+                height:600px;
+                margin-top: 10px;
+                flex-direction: column;
+            }
+            .latest{
+                width:70%; 
+            }
+   }
+
+
+   ::placeholder{
+       font-size:15px;
+       color: lightslategray;
    }

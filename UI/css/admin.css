@@ -85,3 +85,17 @@
 .footer a{
     color:white;
 }
+
+@media (max-width:720px){
+    .nav{
+ height: auto;
+ flex-direction: column;
+}
+  .nav ul{
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .nav ul li{
+      margin-bottom: 5px;
+  }}
